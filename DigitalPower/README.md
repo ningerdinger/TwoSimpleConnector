@@ -36,6 +36,8 @@ Glassdoor.py will require chromedriver.exe to work. Please download it here; htt
 
 After downloading specify the path to your chromedriver.exe in Glassdoor.py
 
+**Keep in mind that line 17 and 18 of CBS.py are commented out because otherwise it would be too much data. In lieu of that I toke only a very small sample size (3 identifiers). The code "cbsodata.get_table_list()" will return metadata of all identifiers.**
+
 
 
 
