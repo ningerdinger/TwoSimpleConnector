@@ -39,7 +39,4 @@ After downloading specify the path to your chromedriver.exe in Glassdoor.py
 
 
 
-
-
-
-![image](https://user-images.githubusercontent.com/52888356/184000729-9100cdd6-e73c-4a30-be3e-3df005690872.png)
+![image](https://user-images.githubusercontent.com/52888356/184003935-a8bd4b33-dc8f-4de4-a142-1fe17c94670c.png)
