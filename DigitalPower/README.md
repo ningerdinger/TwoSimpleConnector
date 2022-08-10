@@ -21,6 +21,7 @@ Setting up Dropbox
 7)Enter your app. You will see the tabs; settings, permissions, branding and analytics. Please head over to settings
 
 8)Enable the permissions with respect to reading and writing. See image for the ones you have to turn on
+![image](https://user-images.githubusercontent.com/52888356/184003935-a8bd4b33-dc8f-4de4-a142-1fe17c94670c.png)
 
 9)Head back to settings and down below you will see "Generated access token". Click generate.
 
@@ -45,6 +46,3 @@ After downloading specify the path to your chromedriver.exe in Glassdoor.py
 
 
 
-
-
-![image](https://user-images.githubusercontent.com/52888356/184003935-a8bd4b33-dc8f-4de4-a142-1fe17c94670c.png)
