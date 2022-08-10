@@ -23,7 +23,7 @@ Setting up Dropbox
 8)Enable the permissions with respect to reading and writing. See image for the ones you have to turn on
 ![image](https://user-images.githubusercontent.com/52888356/184003935-a8bd4b33-dc8f-4de4-a142-1fe17c94670c.png)
 
-9)Head back to settings and down below you will see "Generated access token". Click generate.
+9)Head back to settings and scroll down to "Generated access token". Click generate.
 
 10)Copy this token and put it in the token variable in CBS.py and Glassdoor.py
 
