@@ -1,6 +1,8 @@
 # DigitalPower
 
-In this application, I built two simple pipelines. The first pipeline retrieves data from CBS and converts it into a JSON format. It will then upload it to Dropbox. I opted to go for dropbox since it is free, however it doesn't support writing data into its storage directly like various Cloud services does.
+In this application, I built two simple pipelines. The first pipeline retrieves data from CBS and converts it into a JSON format. It will then upload it to Dropbox. The second data source is from Glassdoor. I made a webscraper that retrieves some of the html code and transforms it into readable text. It is formed into a txt file format. After it has done so, it will store the data on dropbox. 
+
+I opted to go for dropbox since it is free, however it doesn't support many of the functionalities and services like the big Cloud providers does (AWS, Google and Azure).
 
 To do:
 
@@ -26,6 +28,9 @@ Setting up Dropbox
 9)Head back to settings and scroll down to "Generated access token". Click generate.
 
 10)Copy this token and put it in the token variable in CBS.py and Glassdoor.py
+
+**Note that dropbox token only lasts for 4 hours. After that you will have to refresh it**
+
 
 Glassdoor.py will require chromedriver.exe to work. Please download it here; https://chromedriver.chromium.org/downloads. Also make sure that the appropiate version of Google chrome is downloaded. The version needs to be compatible with the chromedriver version you downloaded. Instruction is on the chromedriver page.
 
