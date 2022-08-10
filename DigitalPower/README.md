@@ -13,7 +13,7 @@ Setting up Dropbox
 6)You are free to name your app
 7)Enter your app. You will see the tabs; settings, permissions, branding and analytics. Please head over to settings.
 8)Enable the permissions with respect to reading and writing. See image for the ones you have to turn on
-![image](https://user-images.githubusercontent.com/52888356/184000729-9100cdd6-e73c-4a30-be3e-3df005690872.png)
+
 
 9)Head back to settings and down below you will see "Generated access token". Click generate.
 10)Copy this token and put it in the token variable in CBS.py and Glassdoor.py
@@ -21,3 +21,25 @@ Setting up Dropbox
 Glassdoor.py will require chromedriver.exe to work. Please download it here; https://chromedriver.chromium.org/downloads. Also make sure that the appropiate version of Google chrome is downloaded.
 
 After downloading specify the path to your chromedriver.exe in Glassdoor.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/52888356/184000729-9100cdd6-e73c-4a30-be3e-3df005690872.png)
