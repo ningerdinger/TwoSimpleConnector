@@ -68,6 +68,6 @@ class Glassdoor:
         time.sleep(2)
 
 
-path = 'C:/Users/jelle/OneDrive/Documenten/Python/DigitalPower/chromedriver.exe'
-token = "sl.BNH69B2MA5XIZSMl-qPMKSA-8Y6SDUROKMZ8M2fsX6hwimRh3V5d61roUnXNcypEg5mzk9ngMNBqY74qdGHkbfGGURbO4QSI-x_1u4R3tuzqiaS3NHzg3EwwJ3rlHylbzBwWXUpecSOq"
+path = 'path to chromedriver.exe'
+token = "your token"
 Glassdoor(path, 5, token, 'data-science')
