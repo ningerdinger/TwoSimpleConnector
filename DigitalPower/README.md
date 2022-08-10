@@ -26,7 +26,7 @@ Setting up Dropbox
 
 10)Copy this token and put it in the token variable in CBS.py and Glassdoor.py
 
-Glassdoor.py will require chromedriver.exe to work. Please download it here; https://chromedriver.chromium.org/downloads. Also make sure that the appropiate version of Google chrome is downloaded.
+Glassdoor.py will require chromedriver.exe to work. Please download it here; https://chromedriver.chromium.org/downloads. Also make sure that the appropiate version of Google chrome is downloaded. The version needs to be compatible with the chromedriver version you downloaded. Instruction is on the chromedriver page.
 
 After downloading specify the path to your chromedriver.exe in Glassdoor.py
 
