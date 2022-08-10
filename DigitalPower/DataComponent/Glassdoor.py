@@ -68,6 +68,6 @@ class Glassdoor:
         time.sleep(2)
 
 
-path = 'path to chromedriver.exe'
-token = "your token"
+path = '<path to chromedriver.exe>'
+token = "<Your dropbox token>"
 Glassdoor(path, 5, token, 'data-science')
