@@ -2,7 +2,10 @@ import json
 import cbsodata
 import WritingToDB as wDB
 import logging
+import os 
 
+
+token = os.getenv['DROPBOX_TOKEN']
 
 class CBS:
     ''' This connector retrieves all the generic description including the identifier.
@@ -55,5 +58,4 @@ class CBS:
                 )
 
 
-token = "sl.BNMUIyncSY0ktyCnkw1in-pM9bgsaMbVCt58NKRN30VYeDae4cpXJWXsqnp1ErIC-LhhmsYKLf1y9afH9oiX_C8JgMElnqB1mg5x3mM2G2Rx280DoUA9AqQHZv2-LSHaoWS3aXtn1fGx"
 CBS(token)

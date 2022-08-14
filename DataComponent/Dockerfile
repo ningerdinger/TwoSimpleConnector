@@ -5,5 +5,5 @@ ADD CBS.py .
 
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
-CMD [“python”, “./CBS.py”] 
+CMD ["python", "./CBS.py"] 
 # Or enter the name of your unique directory and parameter set.

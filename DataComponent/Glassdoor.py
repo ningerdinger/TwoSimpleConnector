@@ -5,7 +5,11 @@ from selenium.common.exceptions import NoSuchElementException
 import time
 import WritingToDB as wDB
 import logging
+import os
 
+
+path = "<path to chromedriver.exe>"
+token = os.getenv['DROPBOX_TOKEN']
 
 class Glassdoor:
     ''' This application will gather data from glassdoor. You just need to specify the job function
@@ -69,6 +73,4 @@ class Glassdoor:
         time.sleep(2)
 
 
-path = "<path to chromedriver.exe>"
-token = "<Your dropbox token>"
 Glassdoor(path, 5, token, 'data-science')
