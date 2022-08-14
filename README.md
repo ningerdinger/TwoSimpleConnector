@@ -8,7 +8,15 @@ head to the DataComponent directory
 
 Run: "docker build -t python-image ."
 
-then deploy it by: "docker run python-image".
+then deploy it by: "docker run python-image". 
+This will run CBS.py
+
+changes made:
+- added docker for CBS
+- added logging instead of prints
+
+Unit test is still a WIP 
+logging to console and to a log file is still WIP
 
 ## Old section
 
