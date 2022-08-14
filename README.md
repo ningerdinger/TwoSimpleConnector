@@ -14,6 +14,7 @@ This will run CBS.py
 changes made:
 - added docker for CBS
 - added logging instead of prints
+- added os imports and setting tokens to environmental variables
 
 Unit test is still a WIP 
 logging to console and to a log file is still WIP
