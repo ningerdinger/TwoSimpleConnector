@@ -1,5 +1,17 @@
 # DigitalPower
 
+## Update: added docker for only CBS
+
+Ensure that your environmental variables contains an up to date Dropbox token
+
+head to the DataComponent directory
+
+Run: "docker build -t python-image ."
+
+then deploy it by: "docker run python-image".
+
+## Old section
+
 In this application, I built two simple pipelines. The first pipeline retrieves data from CBS and converts it into a JSON format. It will then upload it to Dropbox. The second data source is from Glassdoor. I made a webscraper that retrieves some of the html code and transforms it into readable text. It is formed into a txt file format. After it has done so, it will store the data on dropbox. 
 
 I opted to go for dropbox since it is free, however it doesn't support many of the functionalities and services like the big Cloud providers does (AWS, Google and Azure).
